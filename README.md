@@ -1,2 +1,0 @@
-# Savana
-Savana
