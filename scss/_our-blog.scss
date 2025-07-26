@@ -1,0 +1,99 @@
+.blog-section {
+
+    .section-label {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        color: #cd8062;
+        letter-spacing: 1px;
+
+        &::after,
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 1px;
+            background-color: #9c6b4b;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+    }
+
+    .section-title {
+        font-size: 36px;
+        font-family: 'Georgia', serif;
+        color: #513125;
+        margin-top: 10px;
+    }
+
+    .section-subtitle {
+        color: #bbb;
+        font-size: 16px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .featured-blog {
+        background-color: #f9f4ee;
+        color: #4a2c1a;
+
+        .meta {
+            font-size: 14px;
+            color: #cd8062;
+        }
+
+        .blog-title {
+            font-size: 20px;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .blog-excerpt {
+            font-size: 15px;
+            color: #555;
+        }
+
+        .read-more {
+            color: #4a2c1a;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-bottom: 1px solid #4a2c1a;
+            padding-bottom: 2px;
+
+            span {
+                font-size: 16px;
+                margin-left: 5px;
+            }
+
+            &:hover {
+                color: #cd8062;
+                border-color: #cd8062;
+            }
+        }
+    }
+
+    .blog-list {
+        .blog-item {
+            img {
+                border-radius: 4px;
+                object-fit: cover;
+                height: 75px;
+            }
+
+            .blog-item-title {
+                font-family: 'Georgia', serif;
+                font-size: 16px;
+                color: #513125;
+                margin-bottom: 5px;
+            }
+
+            .meta {
+                font-size: 13px;
+                color: #C47A5E o !important;
+            }
+        }
+    }
+}
