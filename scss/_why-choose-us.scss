@@ -1,0 +1,54 @@
+.why-choose-us {
+  .video-wrapper {
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+
+  .underline-link {
+    text-decoration: underline;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .bg-orange {
+    background-color: #C6704E;
+  }
+
+  .bg-brown {
+    background-color: #4F2D1C;
+  }
+
+  .bg-cream {
+    background-color: #F3EDE7;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+  }
+
+  .overlay-card {
+    @media (min-width: 992px) {
+      margin-top: -25%;
+      margin-left: -94%;
+      width: 93%;
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  h5 {
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+.w-95{
+    width: 95%;
+    margin-left: 5%;
+}

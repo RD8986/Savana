@@ -3,10 +3,10 @@
   color: #fff;
   font-family: 'Georgia', serif;
 
-  .footer-logo {
-    font-weight: bold;
-    font-size: 1.8rem;
-  }
+  // .footer-logo {
+  //   font-weight: bold;
+  //   font-size: 1.8rem;
+  // }
 
   .footer-contact i {
     color: #e78b6d;
@@ -67,4 +67,15 @@
     top: 0%;
     left: 50%;
   }
+}
+
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.footer-logo {
+  position: absolute;
+  left: -12%;
+  top: -80%;
 }
