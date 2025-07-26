@@ -1,0 +1,88 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./hero";
+@import "./footer";
+@import "./about";
+
+body {
+  font-family: 'David Libre', serif;
+}
+
+.savana-navbar {
+
+  background-image: url('../assets/images/left-top-bg.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+
+  // .navbar-brand img {
+  //   height: auto;
+  // }
+
+  // .navbar-logo {
+  //   display: flex;
+  //   flex-direction: column; // stacks image above text
+  //   align-items: flex-start;
+  //   gap: 0.2rem;
+
+  //   img {
+  //     height: fit-content;
+  //   }
+  // }
+
+
+  .nav-link {
+    color: #5e3c2e;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+
+    &.active,
+    &:hover {
+      color: #c7816a;
+    }
+  }
+
+  .social-link {
+    color: #5e3c2e;
+    font-size: 1rem;
+
+    &:hover {
+      color: #c7816a;
+    }
+  }
+
+  .dropdown-menu {
+    border-radius: 0;
+    border: 1px solid #eaccc0;
+  }
+}
+
+#menu-toggle:checked~.navbar-collapse {
+  display: block;
+  width: 100%;
+  background: #fffaf5;
+  padding: 1rem 0;
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
