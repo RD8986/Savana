@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Savana</title>
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg savana-navbar py-0">
+    <div class="container">
+      <a class="navbar-logo" href="#">
+        <img src="./assets/images/logo.svg" alt="Savana">
+      </a>
+
+      <input type="checkbox" id="menu-toggle" hidden />
+      <label for="menu-toggle" class="navbar-toggler d-lg-none">
+        <span class="navbar-toggler-icon"></span>
+      </label>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Page 1</a></li>
+              <li><a class="dropdown-item" href="#">Page 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <div class="social-icons d-flex gap-3">
+          <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-search"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- #Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="hero-subtitle">SAVANA YOGA</p>
+          <h1 class="hero-title">Bend your mind,<br> inspire yourself</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+            pulvinar dapibus leo.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Get Started <i class="bi bi-arrow-right"></i></a>
+            <a href="#" class="contact-link">Contact Us <i class="bi bi-telephone-fill"></i></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/images/hero-image.svg" alt="Yoga Illustration" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- #About Section -->
+  <section class="about-section py-5 text-center position-relative">
+    <div class="container">
+      <div class="about-heading mb-4">
+        <span class="section-title">ABOUT SAVANA</span>
+      </div>
+      <h2 class="display-5 fw-normal">Happiness is a decision, not a destination.<br>Realize it with us!</h2>
+      <p class="text-muted mt-4 mb-5 px-md-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed,
+        suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus sed erat scelerisque venenatis.
+        Donec consequat ultrices quam, vitae dignissim mi sodales non.
+      </p>
+      <a href="#" class="btn btn-primary learn-more-btn">Learn More <i class="ms-2 bi bi-arrow-right"></i></a>
+    </div>
+
+    <!-- Decorative Background Circles -->
+    <div class="bg-shape bg-left"></div>
+    <div class="bg-shape bg-right"></div>
+  </section>
+
+
+  <!-- #Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row text-white">
+        <!-- Logo & Description -->
+        <div class="col-md-4 mb-4 d-flex flex-column justify-content-start">
+          <div class="d-flex align-items-center mb-3">
+            <img src="./assets/images/footer-logo.svg" alt="Savana Logo" class="footer-logo me-2">
+          </div>
+          <p class="text-white-50 mb-0">
+            Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Praesent tellus leo, vesti bulum a ipsum sed.
+          </p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-3 mb-4">
+          <h5>Get In Touch</h5>
+          <ul class="list-unstyled footer-contact">
+            <li><i class="bi bi-geo-alt-fill me-2"></i>140 Home Street, Plano</li>
+            <li><i class="bi bi-envelope-fill me-2"></i>savana@mail.com</li>
+            <li><i class="bi bi-telephone-fill me-2"></i>+1 (234) 567 890</li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 mb-4">
+          <h5>Quicklinks</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link active">Home</a></li>
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Courses</a></li>
+            <li><a href="#" class="footer-link">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-3 mb-4">
+          <h5>Newsletter</h5>
+          <form class="newsletter-form d-flex">
+            <input type="email" class="form-control" placeholder="Email">
+            <button type="submit" class="btn btn-newsletter">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.1);">
+
+      <!-- Footer Bottom -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap text-white-50">
+        <div>Copyright © 2021 ASK Project</div>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook me-3"></i></a>
+          <a href="#"><i class="bi bi-twitter me-3"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
