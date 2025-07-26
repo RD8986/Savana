@@ -30,11 +30,17 @@
       position: relative;
       width: 80% !important;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
       bottom: 50px;
-      left: 20px;
+      left: 10%;
       width: 100%;
-      
+
+      z-index: 2;
+      background-image: url(../assets/images/card-overlay-vector.svg);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: 40% auto;
+
       h5 {
         font-family: 'Georgia', serif;
         margin-bottom: 10px;

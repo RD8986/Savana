@@ -1,0 +1,100 @@
+.testimonial-section {
+
+    .section-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #9c6b4b;
+        font-weight: bold;
+        position: relative;
+
+        &::after,
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 40px;
+            height: 1px;
+            background-color: #9c6b4b;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+    }
+
+    .section-heading {
+        color: #4a2c1a;
+        font-family: 'Georgia', serif;
+        font-size: 32px;
+    }
+
+    .testimonial-card {
+        padding: 25px;
+        height: 100%;
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+        position: relative;
+        background-image: url(../assets/images/testimonial-vector.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 65% auto;
+
+        .client-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .client-name {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .client-role {
+            font-size: 14px;
+        }
+
+        .testimonial-text {
+            font-size: 14px;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .star-rating {
+            font-size: 16px;
+        }
+
+        &.bg-1 {
+            background-color: #d2987f;
+        }
+
+        &.bg-2 {
+            background-color: #4a2c1a;
+        }
+
+        &.bg-3 {
+            background-color: #f9f4ee;
+            color: #4a2c1a;
+
+            .client-name,
+            .client-role,
+            .testimonial-text,
+            .star-rating {
+                color: #4a2c1a;
+            }
+        }
+    }
+
+    .carousel-control-prev {
+        left: -10%;
+    }
+
+    .carousel-control-next {
+        right: -10%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 60% 60%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
