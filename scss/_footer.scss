@@ -20,8 +20,8 @@
     transition: color 0.2s;
 
     &:hover {
-      color: #e78b6d;
-      text-decoration: underline;
+      color: #e78b6d !important;
+      text-decoration: underline !important;
     }
   }
 
