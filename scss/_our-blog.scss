@@ -4,7 +4,7 @@
         text-transform: uppercase;
         font-size: 14px;
         font-weight: bold;
-        color: #cd8062;
+        color: #cd8062 !important;
         letter-spacing: 1px;
 
         &::after,
@@ -13,7 +13,7 @@
             display: inline-block;
             width: 40px;
             height: 1px;
-            background-color: #9c6b4b;
+            background-color: #9c6b4b !important;
             margin: 0 10px;
             vertical-align: middle;
         }
@@ -34,12 +34,16 @@
     }
 
     .featured-blog {
-        background-color: #f9f4ee;
-        color: #4a2c1a;
+        background-color: #F4EDE5 !important;
+
+        background-image: url("../assets/images/featured-blog-vector.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 42% auto;
 
         .meta {
             font-size: 14px;
-            color: #cd8062;
+            color: #cd8062 !important;
         }
 
         .blog-title {
@@ -92,7 +96,7 @@
 
             .meta {
                 font-size: 13px;
-                color: #C47A5E o !important;
+                color: #C47A5E !important;
             }
         }
     }
